@@ -12,7 +12,7 @@
 ## Mas afinal quem inventou o Git? qual é a história dele? 
 
 ### História do Git
-Existia uma empresa chamada BitKeeper que guardava todo o cóigo do kernel do linux, então todo o linux era versionado nesse sistema, só que houve uma quebra entre a linux e a BitKeeper, fazendo com que a linux não fosse mais isenta de pagar pelo uso da ferramenta, com isso o linux teria que começar a pagar para usar.
+Existia uma empresa chamada BitKeeper que guardava todo o código do kernel do linux, então todo o linux era versionado nesse sistema, só que houve uma quebra entre a linux e a BitKeeper, fazendo com que a linux não fosse mais isenta de pagar pelo uso da ferramenta, com isso o linux teria que começar a pagar para usar.
       O criador do linux, Linus Torvalds decidiu então criar sua própria ferramenta, e criou uma ainda melhor que a da BitKeeper, E fez um sistema de versionamento que tem melhorias comparado as deficiências que ele via na ferramenta da BitKeeper, e assim surgiu o Git.
 
 ### Quais as melhorias o Git tem comparada a ferramente da BitKeeper?
