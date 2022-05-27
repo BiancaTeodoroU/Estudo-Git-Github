@@ -38,9 +38,90 @@ Atualmente se tornou como se fosse uma rede social onde você disponibiliza seu 
 - O Git são seus arquivos no seu local, é o controle de versão.
 - O GitHub são seus arquivos na web, é só o seu repositório remoto.
 
-
-
 # Comandos terminal
+
+#### Como configurar o Git (Primeira vez Baixando)
+
+#### Comando para definir seu nome de usúario, que vai passar para todos os seus repositórios ( config de usúario (Global))
+
+git config --global user.name "Seu nome"
+
+#### Comando para configurar o e-mail
+
+git config --global user.email "Seu E-mail"
+
+#### Como configurar qual é o editor principal do Git
+git config --global core.editor (passar aqui o comando do seu editor, por exemplo se usa sublime será subl ou vscode)
+
+#### Se voce não definir ele vai usar o vim por padrão.
+#### Pra saber qual é o valor daquele dado que você digitou
+##### Exemplo: Qual seu user name
+git config user.name
+
+##### Qual seu e-mail ?
+git config user.email
+
+#### Caso queira saber tudo é só utilizar o comando, e vai mostrar todas as informações do seu Git
+git config --list
+
+
+### Comando para criar uma pasta 
+mkdir (nome da pasta)
+
+### Para entrar dentro da pasta 
+cd (nome da pasta)
+
+### Responsável por inicializar o repositório e ficar enxergando todas as mudanças nesse projeto.
+git init
+
+#### Ele vai mostrar todos os diretórios
+ls -la
+
+#### Para voltar no diretório anterior 
+cd ..
+
+#### editar o nome do arquivo 
+vim(ou outro que você estiver usando) (nome do arquivo)
+ficaria : vim Readme.md
+
+Assim que executado o comando Apertar a tecla i
+Depois de escrever tudo que você preferir apertar a tecla ESQ, e apertar :  ( que indica que você vai iniciar algum comando ), apertar o w ( que significa que você quer escrever, salvar), e apertar o q ( que significa que você quer sair).
+
+#### Serve para reportar como está o repositório 
+git status
+
+#### Adicionar o arquivo ao Git
+git add ( Nome do arquivo )
+ou git add . ( Para adicionar todos os arquivos )
+
+#### O que é um commit? 
+O commit é o momento em que você irá avisar o git, olha pegue todos esses arquivos do meu repositório e crie uma versão dele.
+
+#### Uma boa prática colocar sempre nos seus comentários, o que voce de fato fez de modificação, se você fez uma nova funcionalidade etc..
+
+##### Para commitar : 
+git commit -m "Escrever aqui seu commit dentro das aspas dupla"
+
+#### Mostra os commits ja feitos, e quais arquivos mudaram
+git log 
+
+#### Mostra algumas informações, por exemplo mudou de branch para outra, que tags foram geradas.
+git log --decorate 
+
+#### Pode se filtrar pelo autor (Nome) 
+##### Exemplo usando meu Nome, mas deve se colocar o seu que foi criado
+git log --author="Bianca" 
+
+#### Ele mostra em ordem alfabetica, quais foram os autores, quantos commits eles deram, e quais eles foram.
+git shortlog
+
+
+
+
+
+
+
+
 
 git clone SSH
 
