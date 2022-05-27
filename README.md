@@ -121,7 +121,7 @@ git shortlog --sn
 #### Mostra em forma gráfica o que está acontecendo com as brachs e as versões
 git log --graph
 
-#### Dentro do git log existe uma rash, pela rash da pra se identificar o que aconteceu nesse commit, o que foi modificado etc...
+#### Dentro do git log existe uma hash, pela hash da pra se identificar o que aconteceu nesse commit, o que foi modificado etc...
 
 
 
