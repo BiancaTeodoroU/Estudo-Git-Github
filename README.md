@@ -122,7 +122,12 @@ git shortlog --sn
 git log --graph
 
 #### Dentro do git log existe uma hash, pela hash da pra se identificar o que aconteceu nesse commit, o que foi modificado etc...
+Para descobrir quais modificações foram feitas, copie o hash ( o hash é o que está grifado de vermelho ).
+E use o comando git show ( e a numeração da hash ) então ficaria:
 
+    git show 345019c00ad7df85074d8aaaa7e34d9dbee48a74 
+
+![enter image description here](https://github.com/BiancaTeodoroU/Estudo-Git-Github/blob/main/image/rash.png?raw=true)
 
 
 
