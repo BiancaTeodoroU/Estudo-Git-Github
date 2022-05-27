@@ -40,7 +40,7 @@ Atualmente se tornou como se fosse uma rede social onde você disponibiliza seu 
 
 # Comandos terminal
 
-#### Como configurar o Git (Primeira vez Baixando)
+#### Como configurar o Git 
 
 #### Comando para definir seu nome de usúario, que vai passar para todos os seus repositórios ( config de usúario (Global))
 
