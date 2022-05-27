@@ -115,7 +115,13 @@ git log --author="Bianca"
 #### Ele mostra em ordem alfabetica, quais foram os autores, quantos commits eles deram, e quais eles foram.
 git shortlog
 
+#### Se quiser ver só a quantidade de commits e a pessoa
+git shortlog --sn 
 
+#### Mostra em forma gráfica o que está acontecendo com as brachs e as versões
+git log --graph
+
+#### Dentro do git log existe uma rash, pela rash da pra se identificar o que aconteceu nesse commit, o que foi modificado etc..
 
 
 
