@@ -156,6 +156,9 @@ git commit -am "Digite aqui dentro das aspas dupla"
 ### A gente sempre escolhe não o commit que deseja retornar, a gente escolhe um commit antes.
 
 
+vdpfoibeinbibnprepembpembpm
+
+
 
 git clone SSH
 
