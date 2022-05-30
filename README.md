@@ -51,10 +51,8 @@ git config --global user.email "Seu E-mail"
 
 ### Como configurar qual é o editor principal do Git
 git config --global core.editor (passar aqui o comando do seu editor, por exemplo se usa sublime será subl ou vscode)
-
 ## Se voce não definir ele vai usar o vim por padrão.
-## Para saber qual é o valor daquele dado que você digitou
-### Exemplo: Qual seu user name
+## Para saber qual é o valor daquele dado que você digitou### Exemplo: Qual seu user name
 git config user.name
 
 ### Qual seu e-mail ?
