@@ -159,9 +159,9 @@ exemplo:
 
 - --hard: ele vai deletar tudo que foi feito do commit, quando der o git log após utiliza-lo aquele histórico daquele commit que você deletou vai ter sumido, é recomendado usa-lo somente se você ainda não tiver subido aquele commit para um repositório remoto.
 
-## A gente sempre escolhe não o commit que deseja retornar, a gente escolhe um commit antes. Para ficar mais fácil de entender aqui vai um exemplo:
+### A gente sempre escolhe não o commit que deseja retornar, a gente escolhe um commit antes. Para ficar mais fácil de entender aqui vai um exemplo:
 
-### O que está grifado de vermelho é o commit que eu quero deletar, e em azul é o commit que quero que não seja deletado, se eu quero apagar o 1 nesse caso ( em vermelho ) então eu tenho que usar o comando git usando uma hash antes do commit que eu quero deletar, ( o que está grifado de azul, o 2 commit) Ou seja sempre que eu for deletar determinado commit eu sempre uso a hash antes dele, para conseguir apagar.
+#### O que está grifado de vermelho é o commit que eu quero deletar, e em azul é o commit que quero que não seja deletado, se eu quero apagar o 1 nesse caso ( em vermelho ) então eu tenho que usar o comando git usando uma hash antes do commit que eu quero deletar, ( o que está grifado de azul, o 2 commit) Ou seja sempre que eu for deletar determinado commit eu sempre uso a hash antes dele, para conseguir apagar.
 
 ![enter image description here](https://github.com/BiancaTeodoroU/Estudo-Git-Github/blob/main/image/git%20reset.png?raw=true)
 
