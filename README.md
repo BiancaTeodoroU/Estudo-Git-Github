@@ -102,7 +102,7 @@ ou
 ### O que é um commit? 
 O commit é o momento em que você irá avisar o git, olha pegue todos esses arquivos do meu repositório e crie uma versão dele.
 
-### Uma boa prática colocar sempre nos seus comentários, o que voce de fato fez de modificação, se você fez uma nova funcionalidade etc..
+### Uma boa prática colocar sempre nos seus comentários, o que você de fato fez de modificação, se você fez uma nova funcionalidade etc..
 
 ### Para commitar : 
     git commit -m "Escrever aqui seu commit dentro das aspas dupla"
@@ -166,6 +166,7 @@ exemplo:
 ![enter image description here](https://github.com/BiancaTeodoroU/Estudo-Git-Github/blob/main/image/git%20reset.png?raw=true)
 
 então ficaria: 
+
     git reset --soft e482c78f1167a673cc1e04e70498fe89befab5a9 
 
 ( Nesse caso estou usando o --soft mas poderia ser tambem o --mixed ou o --hard, isso vai de sua escolha )
