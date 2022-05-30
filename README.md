@@ -7,8 +7,7 @@
 ### o que é o controle de versão?
 
 É um sistema com a finalidade de gerenciar diferentes versões de um documento, ele vai ser o sistema responsável por pegar as diferentes modificações ocorridas no seu projeto, e criar versões desses documentos facilitando com que você consiga avançar versões ou voltar versões sem ter tantas dificuldades.
-       
-    Nesse caso será abordado somente sobre o Git, mas existem outros.
+### Nesse caso será abordado somente sobre o Git, mas existem outros.
 
 ## Mas afinal quem inventou o Git? qual é a história dele? 
 
@@ -44,55 +43,58 @@ Atualmente se tornou como se fosse uma rede social onde você disponibiliza seu 
 ## Como configurar o Git 
 ### Comando para definir seu nome de usúario, que vai passar para todos os seus repositórios ( config de usúario (Global))
 
-git config --global user.name "Seu nome"
+ git config --global user.name "Seu nome"
 
 ### Comando para configurar o e-mail
 
-git config --global user.email "Seu E-mail"
+ git config --global user.email "Seu E-mail"
 
 ### Como configurar qual é o editor principal do Git
-git config --global core.editor (passar aqui o comando do seu editor, por exemplo se usa sublime será subl ou vscode)
+git config --global core.editor
+ (passar aqui o comando do seu editor, por exemplo se usa sublime será subl ou vscode)
 
 #### Se você não definir ele vai usar o vim por padrão.
 ## Para saber qual é o valor daquele dado que você digitou
 ### Exemplo: Qual seu user name
-git config user.name
+ git config user.name
 
 ### Qual seu e-mail ?
-git config user.email
+ git config user.email
 
 ### Caso queira saber tudo é só utilizar o comando, e vai mostrar todas as informações do seu Git
-git config --list
+ git config --list
 
 
 ### Comando para criar uma pasta 
-mkdir (nome da pasta)
+ mkdir (nome da pasta)
 
 ### Para entrar dentro da pasta 
-cd (nome da pasta)
+ cd (nome da pasta)
 
 ### Responsável por inicializar o repositório e ficar enxergando todas as mudanças nesse projeto.
-git init
+ git init
 
 ### Ele vai mostrar todos os diretórios
-ls -la
+ ls -la
 
 ### Para voltar no diretório anterior 
-cd ..
+ cd ..
 
 ### Editar o nome do arquivo 
 vim(ou outro que você estiver usando) (nome do arquivo)
-ficaria : vim Readme.md
+ficaria : 
+  vim Readme.md
 
 Assim que executado o comando Apertar a tecla i
 Depois de escrever tudo que você preferir apertar a tecla ESQ, e apertar :  ( que indica que você vai iniciar algum comando ), apertar o w ( que significa que você quer escrever, salvar), e apertar o q ( que significa que você quer sair).
 
 ### Serve para reportar como está o repositório 
-git status
+  git status
 
 ### Adicionar o arquivo ao Git
-git add ( Nome do arquivo )
-ou git add . ( Para adicionar todos os arquivos )
+ git add ( Nome do arquivo )
+ou 
+ git add . ( Para adicionar todos os arquivos )
 
 ### O que é um commit? 
 O commit é o momento em que você irá avisar o git, olha pegue todos esses arquivos do meu repositório e crie uma versão dele.
@@ -100,26 +102,26 @@ O commit é o momento em que você irá avisar o git, olha pegue todos esses arq
 ### Uma boa prática colocar sempre nos seus comentários, o que voce de fato fez de modificação, se você fez uma nova funcionalidade etc..
 
 ### Para commitar : 
-git commit -m "Escrever aqui seu commit dentro das aspas dupla"
+ git commit -m "Escrever aqui seu commit dentro das aspas dupla"
 
 ### Mostra os commits ja feitos, e quais arquivos mudaram
-git log 
+ git log 
 
 ### Mostra algumas informações, por exemplo mudou de branch para outra, que tags foram geradas.
-git log --decorate 
+ git log --decorate 
 
 ## Pode se filtrar pelo autor (Nome) 
 ### Exemplo usando meu Nome, mas deve se colocar o seu que foi criado
-git log --author="Bianca" 
+ git log --author="Bianca" 
 
 ### Ele mostra em ordem alfabetica, quais foram os autores, quantos commits eles deram, e quais eles foram.
-git shortlog
+ git shortlog
 
 ### Se quiser ver só a quantidade de commits e a pessoa
-git shortlog --sn 
+ git shortlog --sn 
 
 ### Mostra em forma gráfica o que está acontecendo com as brachs e as versões
-git log --graph
+ git log --graph
 
 ### Dentro do git log existe uma hash, pela hash da pra se identificar o que aconteceu nesse commit, o que foi modificado etc...
 Para descobrir quais modificações foram feitas, copie o hash ( o hash é o que está grifado de vermelho ).
@@ -130,20 +132,21 @@ E use o comando git show ( e a numeração da hash ) então ficaria:
 ![enter image description here](https://github.com/BiancaTeodoroU/Estudo-Git-Github/blob/main/image/rash.png?raw=true)
 
 ### Mostra as mudanças antes de commitar 
-git diff
+ git diff
 
 ### Mostrar somente o nome do arquivo que foi modificado
-git diff --name-only
+ git diff --name-only
 
 ### Para resetar o arquivo, fazendo isso ele vai retornar o arquivo antes da edição
-git checkout
+ git checkout
 
 ### Quer dizer que você quer pegar o arquivo e tirar da fila do state
 git reset HEAD (Nome do arquivo)
-exemplo: git reset HEAD readme.md
+exemplo:
+  git reset HEAD readme.md
 
 ### Para adicionar todos os meus arquivos modificados + a minha mensagem 
-git commit -am "Digite aqui dentro das aspas dupla"
+ git commit -am "Digite aqui dentro das aspas dupla"
 
 ### Como fazer para voltar, depois de ja ter dado o commit? existem 3 tipos de git reset ( Tomar cuidado porque ele altera o histórico do commit )
 
@@ -159,15 +162,16 @@ git commit -am "Digite aqui dentro das aspas dupla"
 
 ![enter image description here](https://github.com/BiancaTeodoroU/Estudo-Git-Github/blob/main/image/git%20reset.png?raw=true)
 
-então ficaria: git reset --soft e482c78f1167a673cc1e04e70498fe89befab5a9 
+então ficaria: 
+  git reset --soft e482c78f1167a673cc1e04e70498fe89befab5a9 
 
 ( Nesse caso estou usando o --soft mas poderia ser tambem o --mixed ou o --hard, isso vai de sua escolha )
 
 ### Criando repositório remoto 
-git remote add origin ( E a url do seu repositório do git )
+  git remote add origin ( E a url do seu repositório do git )
 
 ### Envia todos os arquivos, e modificações para o repositório que você determinar 
-git push -u origin master 
+  git push -u origin master 
 
 
 
