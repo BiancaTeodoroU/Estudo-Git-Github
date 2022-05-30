@@ -141,15 +141,15 @@ E use o comando git show ( e a numeração da hash ) então ficaria:
     git diff --name-only
 
 ### Para resetar o arquivo, fazendo isso ele vai retornar o arquivo antes da edição
- git checkout
+    git checkout
 
 ### Quer dizer que você quer pegar o arquivo e tirar da fila do state
 git reset HEAD (Nome do arquivo)
 exemplo:
-  git reset HEAD readme.md
+    git reset HEAD readme.md
 
 ### Para adicionar todos os meus arquivos modificados + a minha mensagem 
- git commit -am "Digite aqui dentro das aspas dupla"
+    git commit -am "Digite aqui dentro das aspas dupla"
 
 ### Como fazer para voltar, depois de ja ter dado o commit? existem 3 tipos de git reset ( Tomar cuidado porque ele altera o histórico do commit )
 
@@ -166,15 +166,15 @@ exemplo:
 ![enter image description here](https://github.com/BiancaTeodoroU/Estudo-Git-Github/blob/main/image/git%20reset.png?raw=true)
 
 então ficaria: 
-  git reset --soft e482c78f1167a673cc1e04e70498fe89befab5a9 
+    git reset --soft e482c78f1167a673cc1e04e70498fe89befab5a9 
 
 ( Nesse caso estou usando o --soft mas poderia ser tambem o --mixed ou o --hard, isso vai de sua escolha )
 
 ### Criando repositório remoto 
-  git remote add origin ( E a url do seu repositório do git )
+    git remote add origin ( E a url do seu repositório do git )
 
 ### Envia todos os arquivos, e modificações para o repositório que você determinar 
-  git push -u origin master 
+    git push -u origin master 
 
 
 
