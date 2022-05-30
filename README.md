@@ -129,8 +129,31 @@ E use o comando git show ( e a numeração da hash ) então ficaria:
 
 ![enter image description here](https://github.com/BiancaTeodoroU/Estudo-Git-Github/blob/main/image/rash.png?raw=true)
 
+#### Mostra as mudanças antes de commitar 
+git diff
 
+#### Mostrar somente o nome do arquivo que foi modificado
+git diff --name-only
 
+#### Para resetar o arquivo, fazendo isso ele vai retornar o arquivo antes da edição
+git checkout
+
+#### Quer dizer que você quer pegar o arquivo e tirar da fila do state
+git reset HEAD (Nome do arquivo)
+exemplo: git reset HEAD readme.md
+
+#### Para adicionar todos os meus arquivos modificados + a minha mensagem 
+git commit -am "Digite aqui dentro das aspas dupla"
+
+#### Como fazer para voltar, depois de ja ter dado o commit? existem 3 tipos de git reset
+
+- --soft: ele vai pegar as minhas modificações e vai só voltar o commit, deletar aquele commit que ja foi feito, mas o arquivo ja vai estar em state com a modificação pronta pra ser commitado novamente.
+
+- --mixed: ele vai deletar aquele commit, só que ele vai voltar os arquivos antes do state.
+
+- --hard: ele vai deletar tudo que foi feito do commit.
+
+### A gente sempre escolhe não o commit que deseja retornar, a gente escolhe um commit antes.
 
 
 
