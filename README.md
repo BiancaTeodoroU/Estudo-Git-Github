@@ -1,5 +1,6 @@
 # Estudo sobre Git e Github
 
+![enter image description here](https://github.com/BiancaTeodoroU/Estudo-Git-Github/blob/main/image/GIT%20VS%20GITHUB.png?raw=true)
 
 ##  Antigamente as pessoas faziam cópias e mais cópias de um mesmo projeto, e outras acabavam sem querer apagando algum arquivo importante e não conseguindo recuperá-los, E a partir dai surgiu o controle de versão.
 
