@@ -269,6 +269,9 @@ então ficaria:
 ## Unindo branches, existem 2 metodos importantes:
 ### Merge
 Cria um commit novo para juntar as diferenças
+
+![enter image description here](https://github.com/BiancaTeodoroU/Estudo-Git-Github/blob/main/image/Merge.png?raw=true)
+
 #### PRO
 - Operação não destrutiva 
 #### Contra
@@ -277,6 +280,9 @@ Cria um commit novo para juntar as diferenças
 --------------------------------------------------------------
 ### Rebase
 Ele joga as mudanças para o inicio da fila
+
+![enter image description here](https://github.com/BiancaTeodoroU/Estudo-Git-Github/blob/main/im![enter image description here](https://github.com/BiancaTeodoroU/Estudo-Git-Github/blob/main/image/Rebase.png?raw=true)
+
 #### PRO
 - Evita commits extras
 - Histórico linear 
