@@ -190,7 +190,9 @@ então ficaria:
 #### Assim que der ENTER irá aparecer essa mensagem 
     Generating public/private rsa key pair
 - Aqui irá mostrar o local onde você irá salvar a chave e se você deseja alterar o nome ( em geral se deixa assim mesmo o nome padrão id_rsa)
+
     Enter a file in which to save the key (/users/you/.ssh/id_rsa): [Press enter]
+
 - Neste etapa ele irá pedir para você apertar enter novamente (2x) e assim a sua chave será criada.
 
 ### Como ver minhas chaves? 
