@@ -184,12 +184,12 @@ então ficaria:
 #### Para criar 
 
 - abrir o terminal 
-- copiar o comando :
+#### copiar o comando :
 
     $ ssh-keygen -t rsa -b 4096 -C "Aqui dentro das aspas dupla, você irá colocar exatamente o mesmo e-mail que você criou seu github"
 #### Assim que der ENTER irá aparecer essa mensagem 
     Generating public/private rsa key pair
-- Aqui irá mostrar o local onde você irá salvar a chave e se você deseja alterar o nome ( em geral se deixa assim mesmo o nome padrão id_rsa)
+#### Aqui irá mostrar o local onde você irá salvar a chave e se você deseja alterar o nome ( em geral se deixa assim mesmo o nome padrão id_rsa)
 
     Enter a file in which to save the key (/users/you/.ssh/id_rsa): [Press enter]
 
