@@ -206,9 +206,21 @@ então ficaria:
     cat id_rsa.pub ou more id_rsa.pub
 
 ### Agora você irá entrar dentro do seu Github 
+#### Clique na opção Settings
 
+![enter image description here](https://github.com/BiancaTeodoroU/Estudo-Git-Github/blob/main/image/Onde%20colocar%20a%20chave%20SSH%20.png?raw=true)
 
+#### Clique em SSH and GPG keys
 
+![enter image description here](https://github.com/BiancaTeodoroU/Estudo-Git-Github/blob/main/image/local%20git%20chave%20ssh.png?raw=true)
+
+#### Clique em New SSH key
+
+![enter image description here](https://github.com/BiancaTeodoroU/Estudo-Git-Github/blob/main/image/onde%20criar%20a%20nova%20chave%20ssh%20no%20github.png?raw=true)
+
+#### No campo escrito Key será onde você vai colar a chave SSH e em title geralmente se coloca o nome da maquina para ficar mais fácil depois de se identificar de onde é essa chave.
+
+![enter image description here](https://github.com/BiancaTeodoroU/Estudo-Git-Github/blob/main/image/add%20ssh%20key.png?raw=true)
 
 git clone SSH
 
