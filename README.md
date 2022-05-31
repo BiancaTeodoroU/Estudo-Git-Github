@@ -268,6 +268,7 @@ então ficaria:
 
 ## Unindo branches, existem 2 metodos importantes:
 ### Merge
+Cria um commit novo para juntar as diferenças
 #### PRO
 - Operação não destrutiva 
 #### Contra
@@ -275,7 +276,7 @@ então ficaria:
 - Histórico poluido
 --------------------------------------------------------------
 ### Rebase
-
+Ele joga as mudanças para o inicio da fila
 #### PRO
 - Evita commits extras
 - Histórico linear 
