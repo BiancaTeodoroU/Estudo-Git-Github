@@ -152,6 +152,9 @@ exemplo:
 ### Para adicionar todos os meus arquivos modificados + a minha mensagem 
     git commit -am "Digite aqui dentro das aspas dupla"
 
+### Esta opção ignora os ganchos dos commits anteriores e os ganchos das mensagens de commit, tambem possivel utilizar o --no-verify no git push.
+
+    git commit -m "mensagem" --no-verify
 ### Como fazer para voltar, depois de ja ter dado o commit? existem 3 tipos de git reset ( Tomar cuidado porque ele altera o histórico do commit )
 
 - --soft: ele vai pegar as minhas modificações e vai só voltar o commit, deletar aquele commit que ja foi feito, mas o arquivo ja vai estar em state com a modificação pronta pra ser commitado novamente.
@@ -288,26 +291,30 @@ Ele joga as mudanças para o inicio da fila
 - Histórico linear 
 #### Contra
 - Perde ordem cronológica 
+--------------------------------------------------------------
+### O que é o fork?
+Ele pega um projeto que não é seu e faz uma cópia dele.
 
+### Para que serve o alias?
+São atalhos dos comandos 
+#### Para criar atalhos você deverá escolher se quer que esse atalho seja global, vai escrever o alias. e a letra que você quer que seja desse comando nessa caso alias.s e depois digitar de qual comando será esse atalho ( que nesse caso status ). 
 
-git clone SSH
+    git config --global alias.s status
 
-git pull
+### Pra que serve o revert? 
+Ele vai reverter as mudanças feitas, e vai colocar o código anterior, criando 2 commits, um que eu usei o comando revert e ele voltou o código para antes daquela mudança que fiz, e o outro commit vai estar com a alteração mas ai eu posso usar um git reset --hard e apaga-lo.
 
-code .
+    git revert numeração da hash
 
-npm i
+### Como apagar as branches nos repositórios remotos
+#### Onde está o testing você deve colocar o nome da branch que deseja apagar ou o nome da tag
 
-git checkout -b (-b é para criar uma brach nova) nome/branch
+    git push origin:testing
 
-git checkout ( para mudar de branch )
+### O npm é uma ferramenta de linha de comando que ajuda a interagir com plataformas online, como navegadores e servidores. Essa utilidade auxilia na instalação e desinstalação de pacotes, gerenciamento da versões e gerenciamento de dependências necessárias para executar um projeto.
 
-git add
+    npm i
 
-git add . (adicionar todos)
+### O comando git pull é usado para buscar e baixar conteúdo de repositórios remotos e fazer a atualização imediata ao repositório local para que os conteúdos sejam iguais. 
 
-git commit -m "chore: meu primeiro commit e adicionado configurações"
-
-git push.
-
-Caso o git commit -m e o git push estiver dando erro, tentar usar ( git commit -m "Mensagem q preferir" --no-verify)(git push --no-verify ou git push origin master --no-verify).
+    git pull
