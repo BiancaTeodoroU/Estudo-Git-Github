@@ -38,7 +38,7 @@ Atualmente se tornou como se fosse uma rede social onde você disponibiliza seu 
 - O Git são seus arquivos no seu local, é o controle de versão.
 - O GitHub são seus arquivos na web, é só o seu repositório remoto.
 
-# Comandos terminal
+# Comandos Git - Terminal
 
 ## Como configurar o Git 
 ### Comando para definir seu nome de usúario, que vai passar para todos os seus repositórios ( config de usúario (Global))
@@ -146,6 +146,7 @@ E use o comando git show ( e a numeração da hash ) então ficaria:
 ### Quer dizer que você quer pegar o arquivo e tirar da fila do state
 git reset HEAD (Nome do arquivo)
 exemplo:
+
     git reset HEAD readme.md
 
 ### Para adicionar todos os meus arquivos modificados + a minha mensagem 
@@ -176,6 +177,33 @@ então ficaria:
 
 ### Envia todos os arquivos, e modificações para o repositório que você determinar 
     git push -u origin master 
+
+## O que é SSH? 
+### SSH é um protocolo que serve pra autenticar um usúario remoto a um servidor, ou seja ele é baseado em chaves onde existe uma chave pública e uma chave privada, onde a chave privada consegue abrir a chave pública. Ou seja a gente envia a chave publica pro servidor (Github) e com a nossa chave privada dentro da nossa maquina a gente é capaz de abrir a chave publica do servidor e é capaz de subir o nosso código.
+
+#### Para criar 
+
+1 - abrir o terminal 
+2 - copiar o comando :
+    $ ssh-keygen -t rsa -b 4096 -C "Aqui dentro das aspas dupla, você irá colocar exatamente o mesmo e-mail que você criou seu github"
+#### Assim que der ENTER irá aparecer essa mensagem 
+    Generating public/private rsa key pair
+3 - Aqui irá mostrar o local onde você irá salvar a chave e se você deseja alterar o nome ( em geral se deixa assim mesmo o nome padrão id_rsa)
+    Enter a file in which to save the key (/users/you/.ssh/id_rsa): [Press enter]
+4 - Neste etapa ele irá pedir para você apertar enter novamente (2x) e assim a sua chave será criada.
+
+### Como ver minhas chaves? 
+#### Esse é o diretório onde ficam as chaves ssh
+    cd ~/.ssh/
+
+#### Se digitar:
+    ls
+
+#### Será pega a chave pub, para pegar essa chave é preciso usar o comando 
+    cat id_rsa.pub ou more id_rsa.pub
+
+### Agora você irá entrar dentro do seu Github 
+
 
 
 
