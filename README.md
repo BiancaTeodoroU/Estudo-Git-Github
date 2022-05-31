@@ -218,9 +218,70 @@ então ficaria:
 
 ![enter image description here](https://github.com/BiancaTeodoroU/Estudo-Git-Github/blob/main/image/onde%20criar%20a%20nova%20chave%20ssh%20no%20github.png?raw=true)
 
-#### No campo escrito Key será onde você vai colar a chave SSH e em title geralmente se coloca o nome da maquina para ficar mais fácil depois de se identificar de onde é essa chave.
+#### No campo escrito Key será onde você vai colar a chave SSH e em title geralmente se coloca o nome da maquina para ficar mais fácil depois de se identificar de onde é essa chave.Feito isso é só clicar em Add SSH key, e ai você irá poder utilizar o git push, sem ter problemas de permissão e para subir seu código.
+
 
 ![enter image description here](https://github.com/BiancaTeodoroU/Estudo-Git-Github/blob/main/image/add%20ssh%20key.png?raw=true)
+
+#### Feito isso é só clicar em Add SSH key, e ai você irá poder utilizar o git push, sem ter problemas de permissão e para subir seu código.
+
+### Para clonar algum repositório 
+
+    git clone git@github.com:biancateodoro/github-course.git github-course-clone
+
+#### Após clonar entrar dentro do repositório criado 
+
+    cd github-course-clone/
+
+#### Se der o comando, será possivel ver todas as informações clonadas do outro repositório
+
+    more nome do arquivo
+
+### O que é um branch? 
+É um ponteiro móvel que leva a um commit 
+### Porque usar? Quais são as vantagens?
+- Poder modificar sem alterar o local principal (Master)
+- Facilmente "desligável"
+- Múltiplas pessoas trabalhando
+- Evita conflitos
+
+## Para criar um brach 
+### Após o -b você pode escolher o nome que quiser para sua branch, nesse caso estou usando o nome testing mas poderia ser qualquer outro 
+
+    git checkout -b testing
+
+### Para listar as branches
+
+    git branch
+
+### Pra ir para a branch que você quer
+
+    git checkout testing
+
+### Se quiser voltar para a master
+
+    git checkout master
+
+### Para deletar uma branch
+
+    git branch -D testing
+
+## Unindo branches, existem 2 metodos importantes:
+### Merge
+#### PRO
+- Operação não destrutiva 
+#### Contra
+- Commit extra
+- Histórico poluido
+--------------------------------------------------------------
+### Rebase
+
+#### PRO
+- Evita commits extras
+- Histórico linear 
+#### Contra
+- Perde ordem cronológica 
+
 
 git clone SSH
 
