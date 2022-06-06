@@ -334,6 +334,14 @@ Ele vai reverter as mudanças feitas, e vai colocar o código anterior, criando 
 ![enter image description here](https://github.com/BiancaTeodoroU/Estudo-Git-Github/blob/main/image/n%C3%A3o%20quero%20mais%20o%20stash.png?raw=true)
 
 #### OBS: Quando for excluir verificar qual mensagem você colocou no stash que deseja excluir e clicar nele assim que selecionar a opção.
+
+### Reverte um commit 
+#### OBS: pode ser usada qualquer hash, desde a última até a do meio, qualquer uma, então irá ficar git revert e o número da hash
+
+    git revert 883cf673ebf864564efd55fb132f16f9aac0adc2
+
+#### Após executado esse comando aperte : w q Enter 
+#### Assim você terá revertido esse commit 
 --------------------------------------------------------------
 
 Dados do curso do : 
