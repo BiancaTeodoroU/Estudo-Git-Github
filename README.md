@@ -335,7 +335,7 @@ Ele vai reverter as mudanças feitas, e vai colocar o código anterior, criando 
 
 #### OBS: Quando for excluir verificar qual mensagem você colocou no stash que deseja excluir e clicar nele assim que selecionar a opção.
 
-### Reverte um commit 
+### Como Reverter um commit 
 #### OBS: pode ser usada qualquer hash, desde a última até a do meio, qualquer uma, então irá ficar git revert e o número da hash
 
     git revert 883cf673ebf864564efd55fb132f16f9aac0adc2
