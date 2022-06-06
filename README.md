@@ -321,7 +321,19 @@ Ele vai reverter as mudanças feitas, e vai colocar o código anterior, criando 
 
 ### Se for feita alguma mudança e ela não estiver completa, e você precisou ir para outro branch, você ainda não commitou  porque elas ainda estão incompletas, então para salvar esse estado que é antes de um commit
 
-    
+#### Clicar em fazer stash
+
+![enter image description here](https://github.com/BiancaTeodoroU/Estudo-Git-Github/blob/main/image/onde%20fica%20a%20op%C3%A7%C3%A3o%20para%20fazer%20um%20stash.png?raw=true)
+
+#### Onde ficou o stash que fiz 
+
+![enter image description here](https://github.com/BiancaTeodoroU/Estudo-Git-Github/blob/main/image/onde%20ficou%20o%20stash%20que%20fiz.png?raw=true)
+
+#### Como apagar um stash 
+
+![enter image description here](https://github.com/BiancaTeodoroU/Estudo-Git-Github/blob/main/image/n%C3%A3o%20quero%20mais%20o%20stash.png?raw=true)
+
+#### OBS: Quando for excluir verificar qual mensagem você colocou no stash que deseja excluir e clicar nele assim que selecionar a opção.
 --------------------------------------------------------------
 
 Dados do curso do : 
