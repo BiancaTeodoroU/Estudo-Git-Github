@@ -319,11 +319,10 @@ Ele vai reverter as mudanças feitas, e vai colocar o código anterior, criando 
 
     git pull
 
+### Se for feita alguma mudança e ela não estiver completa, e você precisou ir para outro branch, você ainda não commitou  porque elas ainda estão incompletas, então para salvar esse estado que é antes de um commit
+
+    
 --------------------------------------------------------------
 
 Dados do curso do : 
-Willian Justen Cursos / git e github para iniciantes
-
---------------------------------------------------------------
-
-
+Willian Justen Cursos
