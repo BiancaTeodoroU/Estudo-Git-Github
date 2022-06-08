@@ -341,7 +341,15 @@ Ele vai reverter as mudanças feitas, e vai colocar o código anterior, criando 
     git revert 883cf673ebf864564efd55fb132f16f9aac0adc2
 
 #### Após executado esse comando aperte : w q Enter 
-#### Assim você terá revertido esse commit 
+#### Assim você terá revertido esse commit, após isso dar o git push origin master ( ou git push )
+
+### Como fazer para editar o último commit 
+
+    git commit --amend
+
+#### Depende do seu tipo de editor se for o vim é só pressionar i para abrir o modo de edição ESQ : w q para sair.
+
+
 --------------------------------------------------------------
 
 Dados do curso do : 
