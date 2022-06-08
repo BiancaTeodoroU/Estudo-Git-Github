@@ -350,6 +350,8 @@ Ele vai reverter as mudanças feitas, e vai colocar o código anterior, criando 
 #### Depende do seu tipo de editor se for o vim é só pressionar i para abrir o modo de edição ESQ : w q para sair.
 
 
+### Commits customizados 
+![enter image description here](https://github.com/BiancaTeodoroU/Estudo-Git-Github/blob/main/image/conventional-commits.jpeg?raw=true)
 --------------------------------------------------------------
 
 Dados do curso do : 
