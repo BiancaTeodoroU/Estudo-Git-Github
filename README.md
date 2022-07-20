@@ -248,7 +248,7 @@ então ficaria:
 - Múltiplas pessoas trabalhando
 - Evita conflitos
 
-## Para criar um brach 
+## Para criar um brach e uma feature nova
 ### Após o -b você pode escolher o nome que quiser para sua branch, nesse caso estou usando o nome testing mas poderia ser qualquer outro 
 
     git checkout -b testing
