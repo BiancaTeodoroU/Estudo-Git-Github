@@ -40,9 +40,9 @@ Atualmente se tornou como se fosse uma rede social onde você disponibiliza seu 
 
 ### Estados 
 
-Modificado (modified);
-Preparado (staged/index);
-Consolidado (comitted);
+- Modificado (modified);
+- Preparado (staged/index);
+- Consolidado (comitted);
 
 # Comandos Git - Terminal
 
