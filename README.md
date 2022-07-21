@@ -89,6 +89,9 @@ Atualmente se tornou como se fosse uma rede social onde você disponibiliza seu 
 ### Para voltar no diretório anterior 
     cd ..
 
+### Para abrir o visual studio code 
+    code . 
+
 ### Editar o nome do arquivo 
 vim(ou outro que você estiver usando) (nome do arquivo)
 ficaria : 
