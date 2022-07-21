@@ -38,6 +38,12 @@ Atualmente se tornou como se fosse uma rede social onde você disponibiliza seu 
 - O Git são seus arquivos no seu local, é o controle de versão.
 - O GitHub são seus arquivos na web, é só o seu repositório remoto.
 
+### Estados 
+
+Modificado (modified);
+Preparado (staged/index);
+Consolidado (comitted);
+
 # Comandos Git - Terminal
 
 ## Como configurar o Git 
@@ -247,6 +253,15 @@ então ficaria:
 - Facilmente "desligável"
 - Múltiplas pessoas trabalhando
 - Evita conflitos
+
+### Remover arquivo/Diretório
+#### Remover arquivo ( git rm e o nome do arquivo ) 
+
+    git rm index.html
+    
+#### Remover diretório 
+
+    git rm -r diretorio
 
 ## Para criar um brach e uma feature nova
 ### Após o -b você pode escolher o nome que quiser para sua branch, nesse caso estou usando o nome testing mas poderia ser qualquer outro 
