@@ -371,6 +371,8 @@ Ele vai reverter as mudanças feitas, e vai colocar o código anterior, criando 
 
     npm run build
 
+### colocar hotfix em vez de feature quando for resolver algum problema ou bug
+
 
 ### Commits customizados 
 ![enter image description here](https://github.com/BiancaTeodoroU/Estudo-Git-Github/blob/main/image/conventional-commits.jpeg?raw=true)
