@@ -381,5 +381,9 @@ Ele vai reverter as mudanças feitas, e vai colocar o código anterior, criando 
 ![enter image description here](https://github.com/BiancaTeodoroU/Estudo-Git-Github/blob/main/image/conventional-commits.jpeg?raw=true)
 --------------------------------------------------------------
 
+Nome dos cursos: Git e Github para Iniciantes | Git e Github na Vida Real
+
+Essa documentação foi feita no intuito de absorver os conhecimentos obtidos nos dois cursos, o conteudo colocado foi os que achei mais importante de ambos.
+
 Dados do curso do : 
 Willian Justen Cursos
