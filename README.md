@@ -377,6 +377,20 @@ Ele vai reverter as mudanças feitas, e vai colocar o código anterior, criando 
 
     git push --no-verify
 
+### para matar algum processo ( colocar depois do grep o nome do programa )
+
+    ps aux | grep discord
+
+### após digitar o comando irá usar somente a primeira linha e copiar os primeiros numeros 
+
+   ![image](https://user-images.githubusercontent.com/101062400/200590285-cb13b983-45ef-4069-be00-15315a095a29.png)
+
+### após pegar a numeração que no meu caso é essa: 
+
+    kill -9 11238 
+    
+### colocar a numeração depois do -9 
+
 ### Commits customizados 
 ![enter image description here](https://github.com/BiancaTeodoroU/Estudo-Git-Github/blob/main/image/conventional-commits.jpeg?raw=true)
 --------------------------------------------------------------
