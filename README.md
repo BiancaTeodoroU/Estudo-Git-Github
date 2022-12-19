@@ -393,6 +393,11 @@ Ele vai reverter as mudanças feitas, e vai colocar o código anterior, criando 
 
 ### Commits customizados 
 ![enter image description here](https://github.com/BiancaTeodoroU/Estudo-Git-Github/blob/main/image/conventional-commits.jpeg?raw=true)
+
+### Diferença entre EM e REM
+
+![image](https://user-images.githubusercontent.com/101062400/208490238-517c604f-943d-42f4-8212-702f233acaac.png)
+
 --------------------------------------------------------------
 
 Nome dos cursos: Git e Github para Iniciantes | Git e Github na Vida Real
