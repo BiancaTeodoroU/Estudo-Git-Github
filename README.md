@@ -391,6 +391,10 @@ Ele vai reverter as mudanças feitas, e vai colocar o código anterior, criando 
     
 ### colocar a numeração depois do -9 
 
+### atualiza / mostra branchs novas
+
+    git fetch --all
+
 ### Commits customizados 
 ![enter image description here](https://github.com/BiancaTeodoroU/Estudo-Git-Github/blob/main/image/conventional-commits.jpeg?raw=true)
 
