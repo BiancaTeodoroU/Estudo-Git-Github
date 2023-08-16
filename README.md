@@ -395,6 +395,9 @@ Ele vai reverter as mudanças feitas, e vai colocar o código anterior, criando 
 
     git fetch --all
 
+### comando que mostra no terminal toda a config da maquina, nome etc...
+      sudo lshw
+
 ### Commits customizados 
 ![enter image description here](https://github.com/BiancaTeodoroU/Estudo-Git-Github/blob/main/image/conventional-commits.jpeg?raw=true)
 
